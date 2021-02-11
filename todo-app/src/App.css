@@ -1,0 +1,34 @@
+.App {
+  margin: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+.item-label {
+  flex-grow: 1;
+}
+
+.custom-button {
+  background-color: #2e8d9e;
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.custom-input {
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px;
+}
